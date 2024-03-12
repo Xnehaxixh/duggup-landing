@@ -1,7 +1,7 @@
 <script lang="ts">
 	// Components
 	import Timeline from '$lib/containers/Timeline/timeline.svelte';
-	import IntroCard from '$lib/components/intro-card.svelte';
+	import IntroCard from '$lib/containers/IntroCard/intro-card.svelte';
 	import { timelineCheckpoints } from '$common/timeline.constants';
 </script>
 

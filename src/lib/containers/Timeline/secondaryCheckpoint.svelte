@@ -23,7 +23,7 @@
 <div class="ml-6 flex max-w-[816px] gap-9 p-6">
 	{#each config.cardConfig as cardConfig}
 		<article class="flex-1">
-			<Card.Root class="bg-white shadow-none">
+			<Card.Root class="cursor-pointer bg-white shadow-none hover:shadow-lg">
 				<Card.Image
 					src={cardConfig.image.src}
 					alt={cardConfig.image.alt}

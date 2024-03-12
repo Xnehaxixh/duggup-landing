@@ -10,7 +10,7 @@
 
 	// Components
 	import * as Avatar from '$lib/components/ui/avatar';
-	import Button from './ui/button/button.svelte';
+	import Button from '$lib/components/ui/button/button.svelte';
 
 	let navlinks = [
 		{ href: '/', text: 'Home', Icon: Home },
